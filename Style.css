@@ -1,0 +1,17 @@
+.pro-con{
+    height:20px;
+    width:100%;
+    border-radius:10px;
+    border:2px solid black;
+}
+.pro-bar{
+    width:0%;
+    height:100%;
+    background-color:rgb(88, 234, 88);
+    animation:movebar 2s linear forwards;
+}
+@keyframes movebar {
+    0%{width:0%;}
+    100%{width:100%;}
+    
+}
